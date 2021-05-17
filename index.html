@@ -18,30 +18,25 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:600,700|Poppins:400,600,700"
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:600,700|Poppins:400,600,700&display=swap"
         rel="stylesheet">
 
 </head>
 
 <body>
     <!-- Navigation menu -->
-    <menu class="bi bi-list mobile-nav-toggle d-xl-none"></menu>
-    <header id="header" class="d-flex flex-column justify-content-center visually-hidden">
+    <menu class="bi bi-list mobile-nav-toggle d-lg-none"></menu>
+    <header id="header" class="d-flex flex-column justify-content-center ">
         <nav id="navbar" class="navbar nav-menu">
             <ul>
-                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
-                </li>
-                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-                <li><a href="#education" class="nav-link scrollto"><i class="bx bi-book"></i><span>Education</span></a>
-                </li>
+                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                <!-- <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="#education" class="nav-link scrollto"><i class="bx bi-book"></i><span>Education</span></a></li>
                 <li><a href="#skills" class="nav-link scrollto"><i class="bx bi-laptop"></i><span>Skills</span></a></li>
-                <li><a href="#projects" class="nav-link scrollto"><i
-                            class="bx bx-book-content"></i><span>Projects</span></a>
-                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
-                </li>
-                </li>
-                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contact</span></a>
-                </li>
+                <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i><span>Projects</span></a></li>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
+                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contact</span></a></li>
             </ul>
         </nav>
     </header>
@@ -56,7 +51,8 @@
 
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
             <h1>Mitrajit Chandra</h1>
-            <p>I'm <span class="typed" data-typed-items="Student, Application Developer, Backend Developer"></span></p>
+            <p>I'm <span class="typed"
+                    data-typed-items="a Student, an Application Developer, a Backend Developer"></span></p>
             <div class="social-links">
                 <a href="mailto:chandra.rupam@gmail.com" target="_blank">
                     <i class="bx bx-mail-send" alt="Mail"></i></a>
@@ -75,6 +71,74 @@
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+
+            <div class="row mt-1">
+
+                <div class="col-lg-4">
+                    <div class="info">
+
+                        <div class="address">
+                            <a href="http://bit.ly/Mitrajit_ln" target="_blank"><i
+                                    class="bx bxl-linkedin"></i></a>
+                            <h4>Linkedin</h4>
+                            <p>Mitrajit Chandra Chandra</p>
+                        </div>
+
+                        <div class="phone">
+                            <a href="http://bit.ly/Mitrajit_git" target="_blank"><i
+                                    class="bx bxl-github"></i></a>
+                            <h4>GitHub</h4>
+                            <p>Mitrajit</p>
+                        </div>
+
+                        <div class="email">
+                            <a href="mailto:chandra.rupam@gmail.com"><i class="bi bi-envelope"></i></a>
+                            <h4>Email:</h4>
+                            <p>chandra.rupam@gmail.com</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-8 mt-5 mt-lg-0">
+
+                    <form action="https://formspree.io/f/mnqlpgdw" method="post" role="form" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="_replyto" id="email"
+                                    placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" name="_subject" id="subject"
+                                value="Portfolio contact">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                required></textarea>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
 </body>
 
 </html>

@@ -247,7 +247,7 @@ html {
     padding: 5px;
   }
 
-  .mobile-nav-toggle i {
+  .mobile-nav-toggle menu {
     color: #45505b;
   }
 
@@ -291,7 +291,7 @@ html {
     z-index: 999;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 993px) {
     #hero {
       padding-left: 160px;
     }
