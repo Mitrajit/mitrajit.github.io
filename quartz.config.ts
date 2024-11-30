@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Tech with MJ",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "mitrajit.github.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
@@ -25,31 +25,31 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "Exo 2",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fafafa", // From --background-primary
+          lightgray: "#eaeaeb", // From --background-primary-alt
+          gray: "#8e8e90", // From --text-muted
+          darkgray: "#383a42", // From --text-normal
+          dark: "#383a42", // From --gray-1
+          secondary: "#1592ff", // From --text-accent
+          tertiary: "#a625a4", // From --purple
+          highlight: "rgba(0, 122, 255, 0.15)", // From --text-selection
+          textHighlight: "rgba(255, 255, 0, 0.4)", // From --text-highlight-bg
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#272b34", // From --background-primary
+          lightgray: "#20242b", // From --background-primary-alt
+          gray: "#888G", // From --text-muted
+          darkgray: "#dcddde", // From --text-normal
+          dark: "#dcddde", // Matching text-normal for consistency
+          secondary: "#61afef", // From --text-accent
+          tertiary: "#c678dd", // From --purple
+          highlight: "rgba(0, 122, 255, 0.2)", // From --text-selection
+          textHighlight: "rgba(255, 255, 0, 0.4)", // From --text-highlight-bg
         },
       },
     },
