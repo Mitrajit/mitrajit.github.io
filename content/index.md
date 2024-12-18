@@ -1,6 +1,7 @@
 ---
 title: Tech With MJ
 ---
+
 ### Welcome to Blog
 
 Hi, I'm **Mitrajit Chandra**, and this is where I share the things I learn, the challenges I face, and the solutions I find. As an engineer at Outbox Labs and a mind behind products like ReachInbox and Zapmail, I’ve had the privilege of diving deep into various tech stacks, product management processes, and entrepreneurial strategies.

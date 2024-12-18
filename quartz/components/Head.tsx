@@ -176,6 +176,15 @@ export default (() => {
         <meta property="og:description" content={description} />
         <meta property="og:image:type" content={`image/${extension}`} />
         <meta property="og:image:alt" content={description} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1QXEXTCXS4"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1QXEXTCXS4');
+          `}
+        </script>
         {/* Dont set width and height if unknown (when using custom frontmatter image) */}
         {!frontmatterImgUrl && (
           <>
