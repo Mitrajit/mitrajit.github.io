@@ -43,18 +43,18 @@ curl -fsSL https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub
 ```
 
 5. **Update and Install Required Packages**:
-```
+```shell
 sudo apt update
 sudo apt --assume-yes install pritunl openvpn mongodb-org wireguard wireguard-tools
 ```
 
 6. **Disable Uncomplicated Firewall (UFW)**: 
-```
+```shell
 sudo ufw disable
 ```
 
 7. **Start and Enable Services**:
-```
+```shell
 sudo systemctl start pritunl mongod
 sudo systemctl enable pritunl mongod
 ```
