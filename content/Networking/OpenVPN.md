@@ -5,7 +5,7 @@ title: Fastest way to deploy a VPN server
 
 Setting up an OpenVPN server can be straightforward with the following commands:
 
-```
+```shell
 wget https://git.io/vpn -O openvpn-install.sh
 sudo chmod +x openvpn-install.sh
 ./openvpn-install.sh
@@ -17,7 +17,7 @@ While this method is simple, it may not be the most reliable. In my experience, 
 
 Running the installation script provides an interactive setup process. Here's an example of the workflow:
 
-```
+```shell
 Welcome to this OpenVPN road warrior installer!
 
 Which protocol should OpenVPN use?
@@ -48,7 +48,7 @@ Press any key to continue...
 
 If you want to use your VPN server as a gateway to the Virtual Private Cloud (VPC), you need to add a route to iptables. Below is an example configuration:
 
-```
+```config
 # Example configuration:
 # 10.8.0.0/24 -> VPC Subnet
 # 10.4.0.1 -> OpenVPN server IP in the OpenVPN subnet
@@ -60,26 +60,18 @@ route add -net 10.8.0.0/24 gw 10.4.0.1
 ## Server Reliability
 
 1. **Cloud Providers**:
-    
     - Servers hosted on major cloud platforms like Azure, AWS, and Google Cloud are generally more reliable.
-        
     - These servers are less likely to be blocked by services like Netflix compared to smaller providers.
         
 2. **Server Specifications**:
-    
     - For a small number of connections, a server with 1 CPU and 1 GB of RAM is sufficient.
-        
-
 ## Potential Issues with IP Blacklisting
 
 1. **Digital Ocean**:
-    
     - In my experience, Digital Ocean servers often face issues with IP blacklisting, including being blocked by Netflix.
         
 2. **Other Providers**:
-    
     - While some cheaper providers may seem appealing, their IP addresses are more likely to be on blacklist databases.
-        
 
 # Conclusion
 
