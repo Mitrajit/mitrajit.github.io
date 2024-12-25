@@ -3,7 +3,7 @@ title: "Pritunl: A reliable VPN solution"
 ---
 ## Background
 
-Initially, I started with a simple OpenVPN server installation, but as the number of connections grew, the server struggled to scale. This led to frequent connection drops, even during critical moments like important meetings. To address these issues, I transitioned to Pritunl, a more robust and enterprise-grade VPN solution.
+Initially, I started with a [[OpenVPN|simple OpenVPN server installation]], but as the number of connections grew, the server struggled to scale. This led to frequent connection drops, even during critical moments like important meetings. To address these issues, I transitioned to Pritunl, a more robust and enterprise-grade VPN solution.
 
 I followed the official [Pritunl installation guide](https://docs.pritunl.com/docs/installation#other-providers-ubuntu-2404) for Ubuntu 24.04. It is crucial to use the exact versions mentioned in the documentation at the time of reading, as updates may cause compatibility issues, which I experienced firsthand.
 
