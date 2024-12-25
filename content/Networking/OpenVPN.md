@@ -1,5 +1,5 @@
 ---
-title: Fastest way to deploy a VPN server
+title: "OpenVPN: Fastest way to deploy a VPN server"
 ---
 # Installation
 
