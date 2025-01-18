@@ -58,6 +58,9 @@ sudo ufw disable
 sudo systemctl start pritunl mongod
 sudo systemctl enable pritunl mongod
 ```
+## Firewall 
+Open port 80, 443(TCP) and 15489(UDP)
+
 ---
 ## Key Recommendations
 
